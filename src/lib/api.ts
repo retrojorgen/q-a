@@ -1,3 +1,6 @@
+
+import { AccordionCollection} from "../types"
+
 const POST_GRAPHQL_FIELDS = `
   accordionCollection {
     items {
@@ -33,5 +36,5 @@ export async function getAllAccordionItems(): Promise<any[]> {
       ${POST_GRAPHQL_FIELDS}
     }`
   );
-  return entries?.data;
+  return entries?.data?.accordionCollection as AccordionCollection;
 }
