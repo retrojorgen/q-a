@@ -7,6 +7,7 @@ Fetches results via GraphQL api, displays items in an accordion.
 
 ## To run application
 
+- Change `.example.env` to `.env` and enter credentials
 - Run `yarn` to install required packages
 - Start application with `yarn dev`
 
