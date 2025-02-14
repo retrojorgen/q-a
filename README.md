@@ -3,6 +3,8 @@
 Displays questions and answers for the company Novacare, created in Contentful.
 Fetches results via GraphQL api, displays items in an accordion.
 
+[demo: https://q-a-ecru.vercel.app/](https://q-a-ecru.vercel.app/)
+
 ## To run application
 
 - Run `yarn` to install required packages
