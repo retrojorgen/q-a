@@ -16,8 +16,8 @@ You can either use `lib/api.ts` or `lib/contentfuljs.ts`, they return the same d
 
 uses:
 
-- Next.js
-- Tailwind 3.4 (version 4.0 is out so should ideally upgrade)
+- Next.js 15 (scaffolded from create-next-app)
+- Tailwind 3.4 (version 4.0 is out so should ideally upgrade, create-next-app still ships v.3)
 - Shadcn/UI accordion (has great accessibility support)
 - Supports dark mode if UI is set to dark mode
 
