@@ -1,7 +1,7 @@
 import type { Config } from 'tailwindcss';
 import tailwindCSSAnimate from 'tailwindcss-animate';
 export default {
-  darkMode: ['class'],
+  darkMode: 'media',
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -10,10 +10,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: 'var(--background)',
+        background: '#ebfff7',
+        backgroundDark: '#041f35',
         border: 'hsl(var(--border))',
-        heading: 'var(--color-heading)',
-        text: 'var(--color-text)',
+        heading: '#0d5d9a',
+        headingDark: '#fff7ca',
+        text: '#000',
+        textDark: '#fff',
       },
       keyframes: {
         'accordion-down': {

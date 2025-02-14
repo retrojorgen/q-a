@@ -19,7 +19,7 @@ export default async function Home() {
     <div className="max-w-screen-lg mx-auto p-4">
       {accordionCollection.items?.map((collection, key) => (
         <section className="w-full" key={key}>
-          <h1 className=" text-heading text-4xl lg:text-7xl font-semibold mb-8">
+          <h1 className=" text-heading text-4xl lg:text-7xl font-semibold mb-8 dark:text-headingDark">
             {collection.title}
           </h1>
           <div className="text-base lg:text-2xl">
