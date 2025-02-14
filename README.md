@@ -1,6 +1,6 @@
 ## Simple Q&A application
 
-Displays questions and answers for Nova Consulting Group created in Contentful.
+Displays questions and answers for the company Novacare, created in Contentful.
 Fetches results via GraphQL api, displays items in an accordion.
 
 ## To run application
